@@ -23,7 +23,7 @@
 
 /* eslint-disable */
 (function (factory) {
-	if (typeof define === 'function' && define.amd) {
+	/*if (typeof define === 'function' && define.amd) {
 		// AMD. Register as an anonymous module.
 		define(['jquery'], factory);
 	} else if (typeof module === 'object' && module.exports) {
@@ -42,10 +42,10 @@
 			factory(jQuery);
 			return jQuery;
 		};
-	} else {
+	}  else {*/
 		// Browser globals
 		factory(jQuery);
-	}
+	//}
 
 }(function ($) {
 /* eslint-enable */
